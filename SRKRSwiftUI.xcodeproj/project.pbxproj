@@ -1,0 +1,270 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20EA8C4956EC447FB5BA68BB /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25344D3C34CB43F299DF7ACD /* Color+Hex.swift */; };
+		285750D542E945048478271F /* WebsiteViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358CD31FEE8345259ECAA9CD /* WebsiteViews.swift */; };
+		33F23F4D2740427B9E78394C /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD544C4FEE4F4A6DAFEE715F /* RootView.swift */; };
+		578C0CD5ED234AD589B881F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2F227998B784016A78E68DD /* Assets.xcassets */; };
+		649C0898C489487A906A38CF /* SRKRSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8BA0CE90B34D1F8B948A93 /* SRKRSwiftUIApp.swift */; };
+		72C08B75C2334B88A9DD9FA1 /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DE98E2AFCC4B0E898B2A3A /* Shared.swift */; };
+		75B458A5A18043E797C33C78 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17481670C4724E92B0E20567 /* Models.swift */; };
+		A679CF89ECAD4C979E5FF008 /* Controllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C36FCA9DE84D079D72CD0E /* Controllers.swift */; };
+		EE3229003CC14B3C9F0A18D0 /* AppContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32E5C39979649CF88CA4974 /* AppContent.swift */; };
+		EEC4A0F9F8C743F79E1A353B /* AuthAndLegacyViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18641D4F7B76411AA7AE0230 /* AuthAndLegacyViews.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		17481670C4724E92B0E20567 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		18641D4F7B76411AA7AE0230 /* AuthAndLegacyViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthAndLegacyViews.swift; sourceTree = "<group>"; };
+		25344D3C34CB43F299DF7ACD /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
+		358CD31FEE8345259ECAA9CD /* WebsiteViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsiteViews.swift; sourceTree = "<group>"; };
+		52C36FCA9DE84D079D72CD0E /* Controllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controllers.swift; sourceTree = "<group>"; };
+		5F22C5ACB7574EDC971EDDA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		689681C8AEB540BDA2E5E9D7 /* SRKRSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SRKRSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2F227998B784016A78E68DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD544C4FEE4F4A6DAFEE715F /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		E32E5C39979649CF88CA4974 /* AppContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContent.swift; sourceTree = "<group>"; };
+		EB8BA0CE90B34D1F8B948A93 /* SRKRSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRKRSwiftUIApp.swift; sourceTree = "<group>"; };
+		F5DE98E2AFCC4B0E898B2A3A /* Shared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B28F5DB5C00146398CA3B0B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DD074B5C4AF4CC6868B82DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				689681C8AEB540BDA2E5E9D7 /* SRKRSwiftUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3EBF4ABB168F40498CCF7162 /* SRKRSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				6D6FC84FBEB541B699725EEA /* Models */,
+				E00DFF1B573248958971AF4D /* Views */,
+				647BF4281F164845A0F0A083 /* Controllers */,
+				F74E0D7ADCCA4F5AAFFDA9E3 /* Resources */,
+				EB8BA0CE90B34D1F8B948A93 /* SRKRSwiftUIApp.swift */,
+				5F22C5ACB7574EDC971EDDA3 /* Info.plist */,
+			);
+			path = SRKRSwiftUI;
+			sourceTree = "<group>";
+		};
+		647BF4281F164845A0F0A083 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				52C36FCA9DE84D079D72CD0E /* Controllers.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6D6FC84FBEB541B699725EEA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E32E5C39979649CF88CA4974 /* AppContent.swift */,
+				17481670C4724E92B0E20567 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8E060B7867BB4550B75471C5 = {
+			isa = PBXGroup;
+			children = (
+				3EBF4ABB168F40498CCF7162 /* SRKRSwiftUI */,
+				3DD074B5C4AF4CC6868B82DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E00DFF1B573248958971AF4D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				18641D4F7B76411AA7AE0230 /* AuthAndLegacyViews.swift */,
+				AD544C4FEE4F4A6DAFEE715F /* RootView.swift */,
+				F5DE98E2AFCC4B0E898B2A3A /* Shared.swift */,
+				358CD31FEE8345259ECAA9CD /* WebsiteViews.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F74E0D7ADCCA4F5AAFFDA9E3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A2F227998B784016A78E68DD /* Assets.xcassets */,
+				25344D3C34CB43F299DF7ACD /* Color+Hex.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D06FD880F0D64EBF983F6969 /* SRKRSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89C0A599717E435D860A38DC /* Build configuration list for PBXNativeTarget "SRKRSwiftUI" */;
+			buildPhases = (
+				CCD125597EDC4F1EB15F46EB /* Sources */,
+				B28F5DB5C00146398CA3B0B4 /* Frameworks */,
+				6926C8F80DBC46518E680A2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SRKRSwiftUI;
+			productName = SRKRSwiftUI;
+			productReference = 689681C8AEB540BDA2E5E9D7 /* SRKRSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAC1275B80AB40C0A5BF0367 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					D06FD880F0D64EBF983F6969 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 5B53E9A96F1C48BE87208123 /* Build configuration list for PBXProject "SRKRSwiftUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E060B7867BB4550B75471C5;
+			productRefGroup = 3DD074B5C4AF4CC6868B82DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D06FD880F0D64EBF983F6969 /* SRKRSwiftUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6926C8F80DBC46518E680A2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				578C0CD5ED234AD589B881F9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCD125597EDC4F1EB15F46EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE3229003CC14B3C9F0A18D0 /* AppContent.swift in Sources */,
+				75B458A5A18043E797C33C78 /* Models.swift in Sources */,
+				EEC4A0F9F8C743F79E1A353B /* AuthAndLegacyViews.swift in Sources */,
+				33F23F4D2740427B9E78394C /* RootView.swift in Sources */,
+				72C08B75C2334B88A9DD9FA1 /* Shared.swift in Sources */,
+				285750D542E945048478271F /* WebsiteViews.swift in Sources */,
+				A679CF89ECAD4C979E5FF008 /* Controllers.swift in Sources */,
+				20EA8C4956EC447FB5BA68BB /* Color+Hex.swift in Sources */,
+				649C0898C489487A906A38CF /* SRKRSwiftUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		13534835255D4A4DAA413A1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SRKRSwiftUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SRKRSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		47857CFE14054F6FA04809D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9C04111A80E04E6394425C2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F72012BEDD6943AABEF01FA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SRKRSwiftUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SRKRSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B53E9A96F1C48BE87208123 /* Build configuration list for PBXProject "SRKRSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47857CFE14054F6FA04809D9 /* Debug */,
+				9C04111A80E04E6394425C2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89C0A599717E435D860A38DC /* Build configuration list for PBXNativeTarget "SRKRSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F72012BEDD6943AABEF01FA9 /* Debug */,
+				13534835255D4A4DAA413A1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAC1275B80AB40C0A5BF0367 /* Project object */;
+}
