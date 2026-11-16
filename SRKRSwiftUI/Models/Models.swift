@@ -8,6 +8,8 @@ struct Student: Identifiable, Codable, Equatable {
     var gender: String
     var contact: String = ""
     var address: String = ""
+    
+    //dspdspdspdsp
 }
 
 struct BlogPost: Identifiable {
