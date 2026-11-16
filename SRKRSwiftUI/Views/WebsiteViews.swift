@@ -4,7 +4,7 @@ struct HomeView: View {
     var body: some View {
         ScrollView {
             VStack(spacing: 24) {
-                PageTitle(title: "Hello..AP..BYE..BYE..YCP.")
+                PageTitle(title: "Hello  ...  AP ... BYE .. BYE .. YCP.")
                 VStack(alignment: .leading, spacing: 12) {
                     Text("This is my Home page.").font(.title2.bold())
                     Text("kayal")
@@ -56,7 +56,7 @@ struct AboutView: View {
     var body: some View {
         ScrollView {
             VStack(spacing: 24) {
-                PageTitle(title: "Hello..AP..BYE..BYE..YCP.")
+                PageTitle(title: "Hello  ...  AP ... BYE .. BYE .. YCP.")
                 HStack(alignment: .top, spacing: 16) {
                     VStack(alignment: .leading, spacing: 12) {
                         Text("myself gupta i am currently pursuing my btech in srkr engineering college i am big fan and follower of power star pavan kalyan.")
